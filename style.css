@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family : 'Poppins', sans-serif ;
+}
+
+
+.contPrincipal{
+    margin: 1% 20%;
+    border: 1px solid #000;
+}
+
+.entete{
+    display: flex;
+    padding: 2px 2%;
+    background-color: #93a6b4;
+}
+.image{
+    margin: 2% 10%;
+}
+
+img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+
+.profil{
+    padding: 20px 2px;
+}
+
+.profil h1, .profil h3, .profil p{
+    margin: 0;
+    padding: 2px;
+}
+
+
+.corp{
+    display: flex;
+}
+
+.blocgauche{
+    width: 30%;
+    height: auto;
+    padding: 40px 10px 5% 40px;
+    background-color:#353b49;
+    color: #f1f1f1;
+}
+
+.contenuGauche{
+    margin-right: 5px;
+}
+
+
+.TitreCompetence, .TitreLangue{
+    padding-left: 10px;
+    border-left: 4px solid #fff;
+    margin: 20px 0;
+}
+
+.compLang{
+    margin-top: 40px;
+}
+
+.contenuCompetence li, .langue li{
+    margin-top: 5px;
+}
+
+
+/*==========================Taille des polices*/
+
+.contact p, li{
+    font-size: 13px;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+/* Bloc de droite*/
+.contenuBlocDroite{
+   margin: 10% 5%;
+}
+.TitreExperience, .TitreFormation{
+    padding-left: 10px;
+    border-left: 4px solid #353b49;
+    margin: 20px 0;
+}
+
+.contenuExperiencePro h4, .contenuExperiencePro h6, .contenuExperiencePro p, .contenuFormation h4, .contenuFormation h6,.contenuFormation p{
+    margin: 0;
+    padding: 2px;
+}
+
+.blocCExP{
+    margin: 30px 0;
+}
+
+.blocFormation{
+    margin: 30px 0;
+}
+
+
+/*============Responsivité=========*/
+@media (max-width: 1120px) {
+    .contPrincipal{
+        margin: 1% 10%;
+    }
+}
+
+@media (max-width: 920px) {
+   
+    /*==========================Taille des polices*/
+
+    .contact p, li{
+        font-size: 11px;
+    }
+
+    p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    h4{
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .contPrincipal{
+        margin: 1% 10%;
+    }
+
+
+     /*==========================Taille des polices*/
+
+     .contact p, li{
+        font-size: 11px;
+    }
+
+    p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 17px;
+    }
+
+    h4{
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    .entete{
+        flex-direction: column;
+        padding: 1px 5%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contPrincipal{
+        margin: 1% 1%;
+    }
+    .blocgauche{
+        padding: 20px 5px 2% 20px;
+    }
+    .profil{
+        padding: 10px 1px;
+    }
+
+ /*========Taille des polices======*/
+
+    .contact p, li{
+        font-size: 8px;
+    }
+
+
+    p{
+        font-size: 7px;
+        text-align: justify;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    h4{
+        font-size: 9px;
+    }
+
+
+    .blocCExP{
+        margin: 10px 0;
+    }
+    
+    .blocFormation{
+        margin: 10px 0;
+    }
+        
+}
+
+
+@media (max-width: 400px) {
+
+    .contPrincipal{
+        margin: 0;
+    }
+    .blocgauche{
+        padding: 10px 2px 1% 10px;
+    }
+    .profil{
+        padding: 5px 1px;
+    }
+
+ /*========Taille des polices======*/
+
+   
+    h1{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+    
+    h4{
+        font-size: 9px;
+    }
+
+
+    .blocCExP{
+        margin: 10px 0;
+    }
+    
+    .blocFormation{
+        margin: 10px 0;
+    }
+
+    img{
+        width: 120px;
+        height: 122px;
+    }
+}
