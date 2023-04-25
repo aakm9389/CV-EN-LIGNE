@@ -266,7 +266,9 @@ h4{
     }
 
  /*========Taille des polices======*/
-
+    .contenuLangue li{
+        font-size: 7px;
+    }
    
     h1{
         font-size: 15px;
@@ -296,5 +298,12 @@ h4{
     img{
         width: 120px;
         height: 122px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .blocFormation{
+        font-size: 7px;
     }
 }
