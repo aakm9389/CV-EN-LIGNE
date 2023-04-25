@@ -319,4 +319,12 @@ h4{
     .blocFormation{
         font-size: 7px;
     }
+    
+}
+
+@media (max-width: 295px) {
+
+    .contact p{
+        font-size: 4px;
+    }
 }
